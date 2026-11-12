@@ -15,6 +15,18 @@ A cross-platform (iOS, Android and web) loyalty rewards app built with **React N
   <img src="docs/screenshots/error.jpg" width="200" alt="Network error with retry">
 </p>
 
+## Try it
+
+| Platform | How |
+| --- | --- |
+| **Android** | Download `Rewards-Demo.apk` from the [latest release](https://github.com/neomaverick1/loyalty-rewards-demo/releases/latest) and open it on your phone. |
+| **iPhone / any browser** | Open the web version: **https://neomaverick1.github.io/loyalty-rewards-demo/** |
+| **iOS Simulator (Mac)** | Download `Rewards-Demo-iOS-Simulator.zip` from the [latest release](https://github.com/neomaverick1/loyalty-rewards-demo/releases/latest), unzip it, and drag the app onto a running simulator. |
+
+Sign in with any valid email and an 8+ character password, then tap **Use demo wallet**, or paste a Sepolia address that holds test USDC (for example `0xB62eFc43C16b4E2Bf1aAAD33002368e55708538D`).
+
+Every push to `main` runs the checks and rebuilds all three automatically ([`.github/workflows/build.yml`](.github/workflows/build.yml)).
+
 ## Features
 
 | Area | What it does |
